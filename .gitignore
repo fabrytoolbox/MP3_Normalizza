@@ -1,0 +1,26 @@
+# Tools scaricati automaticamente dal setup
+tools/
+
+# Output dello script
+Normalizzati/
+*.mp3
+
+# Log di normalizzazione
+normalizzazione_*.log
+
+# File temporanei
+*.log
+*.tmp
+*.zip
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+escludi.txt

@@ -1,0 +1,11 @@
+# escludi.txt - File di esclusione per normalizza.ps1
+# Un pattern per riga. Le righe che iniziano con # sono commenti.
+# Il match e' case-insensitive e funziona su:
+#   - nome file esatto (es. "22.My_Way.mp3")
+#   - path completo (es. "D:\Musica\brano.mp3")
+#   - frammento (es. "Kenny G" esclude tutti i file con "Kenny G" nel nome)
+
+# Esempi:
+# 22.My_Way.mp3
+# Frank Sinatra, Kenny G - All The WayOne For My Baby (And One More For The Road) Medley.mp3
+# What A Wonderful World
